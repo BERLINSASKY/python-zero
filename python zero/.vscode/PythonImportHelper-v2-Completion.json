@@ -1,0 +1,2154 @@
+[
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "timeit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timeit",
+        "description": "timeit",
+        "detail": "timeit",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "a",
+        "description": "a",
+        "detail": "a",
+        "documentation": {}
+    },
+    {
+        "label": "ABCMeta",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "pylint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pylint",
+        "description": "pylint",
+        "detail": "pylint",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pyfiglet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyfiglet",
+        "description": "pyfiglet",
+        "detail": "pyfiglet",
+        "documentation": {}
+    },
+    {
+        "label": "termcolor",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "termcolor",
+        "description": "termcolor",
+        "detail": "termcolor",
+        "documentation": {}
+    },
+    {
+        "label": "modules",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "modules",
+        "description": "modules",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "testcase",
+        "kind": 6,
+        "importPath": "a",
+        "description": "a",
+        "peekOfCode": "class testcase(unittest.TestCase) :\n    def test1(self):\n        self.assertEqual(1+1,2,'should be 2')\n    def test2(self):\n        self.assertFalse(50<30,'should be false')\nif __name__ == '__main__' :\n    unittest.main()",
+        "detail": "a",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class Member:\n    # الاتربيوت الخاصة بالكلاس يتم مناداتها داخل الكلاس عن طريق اسم الكلاس نفسو\n    # Member.not_allowed_names\n    not_allowed_names = ['hell', 'shit', 'fuck']\n    counter = 0\n    # هذه الفانككشن تعتبر بمثابة الكونستركتر\n    # يتم مناداتها عند استدعاء اوبجيكت من الكلاس\n    # الاتربيوت الخاصة بالاوبجيككت يتم مناداتها داخل الكلاس عن طريق\n    # self.fname\n    # ال self",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "Food",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class Food:  # base class\n    def __init__(self, nam):\n        self.nam = nam\n        print(f'{nam}food is created from main class')\n    def eat(self):\n        print('print method from main class')\nclass Apple(Food):  # Derived class\n    # derived يعني الكلاس الوارث\n    # ال init\n    # في الكلاس الوارث",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "Apple",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class Apple(Food):  # Derived class\n    # derived يعني الكلاس الوارث\n    # ال init\n    # في الكلاس الوارث\n    # بتعمل override\n    # على ال init\n    # من الكلاس المورث\n    def __init__(self, nam):\n        # لتوريث ما داخل ال\n        # init",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "baseone",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class baseone:\n    def __init__(self) -> None:\n        print('base one')\n    def funcone(self):\n        print('one')\nclass basetwo:\n    def __init__(self) -> None:\n        print('base two')\n    def functwo(self):\n        print('two')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "basetwo",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class basetwo:\n    def __init__(self) -> None:\n        print('base two')\n    def functwo(self):\n        print('two')\nclass derived(baseone, basetwo):\n    pass\no1 = derived()\n# message risoliotion order\n# بتطالعلي ترتيب الميثود",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "derived",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class derived(baseone, basetwo):\n    pass\no1 = derived()\n# message risoliotion order\n# بتطالعلي ترتيب الميثود\nprint(derived.mro())\no1.funcone()\no1.functwo()\n# polymarphism\nclass A:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class A:\n    def doing(self):\n        print('from class a')\n        raise NotImplementedError\nclass B(A):\n    def doing(self):\n        print('from class b')\nclass C(A):\n    def doing(self):\n        print('from class c')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class B(A):\n    def doing(self):\n        print('from class b')\nclass C(A):\n    def doing(self):\n        print('from class c')\ninstance = B()\ninstance.doing()\nprint(' ')\n# Encapsulation",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class C(A):\n    def doing(self):\n        print('from class c')\ninstance = B()\ninstance.doing()\nprint(' ')\n# Encapsulation\n# protected _var\n# can acces from the same class and the derived classes\n# private __var",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "abd",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class abd:\n    def __init__(self, name, price, why) -> None:\n        self.name = name\n        self._price = price\n        self.__why = why\n    def say_why(self):\n        print(f'{self.__why}')\na = abd('ahmad', 200, 'fuck u')\nprint(a.name)\n# يمكن طباعة العناصر",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "sex",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class sex:\n    def __init__(self) -> None:\n        pass\n    def setname(self, name):\n        self.__name = name\n    def getname(self):\n        print(f'{self.__name}')\na = sex()\na.setname('abdullah')\na.getname()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class r:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    def sayhello(self):\n        print(f'hello {self.name}')\n    # باضافة هذه الاشارة\n    #  @property\n    # يمكن معامله هذه الميثود ك\n    # property",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "proggraming",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class proggraming(metaclass=ABCMeta):\n    # نجعل المثيود ابستراكت من خلال اضافة\n    # @abstractmethod\n    @abstractmethod\n    def has_opp(self):\n        pass\n    def fuck(self):\n        print('fuck u')\nclass python(proggraming):\n    def has_opp(self):",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class python(proggraming):\n    def has_opp(self):\n        return 'yes'\nclass php(proggraming):\n    def has_opp(self):\n        return 'no'\none = python()\nprint(one.has_opp())\none.fuck()\nprint('  ')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "php",
+        "kind": 6,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "class php(proggraming):\n    def has_opp(self):\n        return 'no'\none = python()\nprint(one.has_opp())\none.fuck()\nprint('  ')\n# data base\n# انشاء ملف داتا بيز والاتصال فيه\ndb = sqlite3.connect('data.db')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "function",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def function():\n    return 'hello abdullah'\nprint(function())\nt = [1, 2, 3, 4]\nprint(t)\n# اذا بدي اعرض بدون ما يحطلي العناصر ضمن ليست\nprint(*t)\n# اذا بدي دخل عدد كبير من البراميترز\ndef hello(*lista):\n    print(type(lista))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def hello(*lista):\n    print(type(lista))\n    for name in lista:\n        print(f'hello {name}')\nhello('abdullah', 'ahmad', 'fateh')\ndef hello(**lista):\n    print(type(lista))\n    for key, value in lista.items():\n        print(f'the key is {key} and the value is {value}')\nhello(ahmad='sermani', age=25)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def hello(**lista):\n    print(type(lista))\n    for key, value in lista.items():\n        print(f'the key is {key} and the value is {value}')\nhello(ahmad='sermani', age=25)\ndec = {'abdullah': 'sermani',\n       'age': 22\n       }\nhello(**dec)\ndef x():",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def x():\n    global x\n    x = 5\nx()\nprint(x)\n# lampda fun\ndef hello(name, age): return f'hello {name} age is {age}'\nprint(hello('ahmad', 20))\nprint(r'hello\\n fuck u')  # بتوقف الاوامر الي جوا\nprint('*'*100)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def hello(name, age): return f'hello {name} age is {age}'\nprint(hello('ahmad', 20))\nprint(r'hello\\n fuck u')  # بتوقف الاوامر الي جوا\nprint('*'*100)\nprint('*'*100)\n# اذا بدي حط ملف لافتحو غالبا بيطلعلي ايرور لان بكون الموقع الافتراضي غلط\n#  os.getcwd()عن طريق ال\n# بقدر جيب الموقع الي لازم حط فيو الملف\nprint(os.getcwd())  # main corrent working directory\nprint(os.path.abspath(__file__))  # the location of this file",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def sum(num1, num2):\n    return num1 + num2\nnum = [1, 2, 3, 4, 5]\nres = reduce(sum, num)\nprint(res)\n# العملية الي صارت\n# ((((1+2)+3)+4)+5)\n# enumerate()\n# بتضفلي كاونتر يعني عداد\nmyskills = {'html', 'css', 'python', 'django', 'git&github'}",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "generator",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def generator():\n    yield 1\n    yield 2\n    yield 3\n    yield 4\nmygen = generator()\nprint('hello')\nprint(next(mygen))\nprint('how r u ')\nprint(next(mygen))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "decorater",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def decorater(func):\n    def nastedfucn():\n        print('before')\n        func()\n        print('after')\n    return nastedfucn\n# بحط @ واسم الفانكشن الي مسؤولة عن التزيين مشان يتطبق التزيين على هاي الفانكشن\n@decorater\ndef hello():\n    print('hello from hello func')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def hello():\n    print('hello from hello func')\nhello()\nprint('*'*100)\n# decorate func with paramitars\ndef docorater(func):\n    def nasted(num1, num2):\n        if num1 < 0 or num2 < 0:\n            print('be aware of this number')\n        func(num1, num2)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "docorater",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def docorater(func):\n    def nasted(num1, num2):\n        if num1 < 0 or num2 < 0:\n            print('be aware of this number')\n        func(num1, num2)\n    return nasted\n@docorater\ndef cal(n1, n2):\n    print(n1+n2)\ncal(-10, 20)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "cal",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def cal(n1, n2):\n    print(n1+n2)\ncal(-10, 20)\nprint('='*100)\n# مثال عن الديكوريشن لحساب سرعة التنفيذ\ndef speedtest(func):\n    def nasted():\n        start = time()\n        func()\n        end = time()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "speedtest",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def speedtest(func):\n    def nasted():\n        start = time()\n        func()\n        end = time()\n        print(f'the run func take time {end - start}')\n    return nasted\n@speedtest\ndef func():\n    for i in range(100):",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def func():\n    for i in range(100):\n        print(i, end=' ')\nfunc()\nprint('='*100)\n# zip\n# بتدمج وبتطالعلي طول اقل list\nlist1 = [1, 2, 4, 5, 6]\nlist2 = ['a', 'b']\nultimatelist = zip(list1, list2)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "sayhello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def sayhello(name):\n    # this is documentation\n    '''this is fucnction say hello'''\n    print(f'hello {name}')\n# this __doc__ to show the documentation\n# decumentation is to show details i wrote about func\nprint(sayhello.__doc__)\n# هون بيطلع ال doumintation\n# help(sayhello)\nprint('='*100)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def say_hello(name) -> str:\n    print(f'hello {name}')\nsay_hello('abdullah')\nprint('='*100)\n# تعلم لغة Python درس 095# - تعلم Regular Expressions الجزء الأول - مقدمة\nmy_string = re.search(r'[A-Z]{2}', 'AAbdullah SSermani')\nprint(my_string)\nprint('')\n# position of search\nprint(my_string.span())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "test_case_one",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def test_case_one():\n    assert 3*4 == 12, \"should be 12\"\ndef test_case_two():\n    assert 10*5 == 100, \"should be 50\"\n# يجب عدم عمل امبورت للتيست كيز\n# لذلك نكتب هذه التعليمة لتنفيذها ضمن هذا الكود تحديدا اي ضممن هذا الملف\nif __name__ == '__main__':\n    test_case_one()\n    # test_case_two() #رح يطلعلي ايرور لان غلط\n    print(\"all text case is ok\")",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "test_case_two",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def test_case_two():\n    assert 10*5 == 100, \"should be 50\"\n# يجب عدم عمل امبورت للتيست كيز\n# لذلك نكتب هذه التعليمة لتنفيذها ضمن هذا الكود تحديدا اي ضممن هذا الملف\nif __name__ == '__main__':\n    test_case_one()\n    # test_case_two() #رح يطلعلي ايرور لان غلط\n    print(\"all text case is ok\")\nprint('')\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "makeserial",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def makeserial(count) :\n    all_char = string.digits + string.ascii_letters\n    char_count = len(all_char)\n    serial_list = []\n    while count > 0 :\n        x= random.randint(0,char_count -1)\n        serial_list.append(all_char[x])\n        count-=1\n    for i in serial_list :\n        print(i,end=\"\")",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "main_page",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def main_page():\n    return render_template(\"homepage.html\",pagetitle='home',test = 'hello from home',custom_css ='home')\n@skills_app.route('/about')\ndef about () :\n    return render_template('about.html',pagetitle='about',test = 'hello from about',custom_css ='about')\n@skills_app.route('/vid')\ndef vid():\n    return render_template('vid.html',pagetitle = 'vid',test ='hello from vid page')\nif __name__ == '__main__' :\n    #port 5000",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "abou",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def about () :\n    return render_template('about.html',pagetitle='about',test = 'hello from about',custom_css ='about')\n@skills_app.route('/vid')\ndef vid():\n    return render_template('vid.html',pagetitle = 'vid',test ='hello from vid page')\nif __name__ == '__main__' :\n    #port 5000\n    #127.0.0.1:5000\n    #skills_app.run(port=5000)\n    pass",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "vid",
+        "kind": 2,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "def vid():\n    return render_template('vid.html',pagetitle = 'vid',test ='hello from vid page')\nif __name__ == '__main__' :\n    #port 5000\n    #127.0.0.1:5000\n    #skills_app.run(port=5000)\n    pass\nprint('')\n#-------------------------------------------------------------------------------------------------\n#تعلم لغة Python درس 141# - تعلم Web Scraping وكيف تتحكم في المتصفح بواسطة Selenium",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "msg = \"i love \"\nl = \"python\"\nprint(msg + l)\nprint(len(\"ilove python\"))\no = 'love pyhon but easy'\nprint(o.title())\nc, d, e = \"1\", \"10\", \"100\"\nprint(c.zfill(3))\nd = 'hello i am abdullah'\nprint(d.split(\" \", 2))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "l = \"python\"\nprint(msg + l)\nprint(len(\"ilove python\"))\no = 'love pyhon but easy'\nprint(o.title())\nc, d, e = \"1\", \"10\", \"100\"\nprint(c.zfill(3))\nd = 'hello i am abdullah'\nprint(d.split(\" \", 2))\nprint(d.split())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "o = 'love pyhon but easy'\nprint(o.title())\nc, d, e = \"1\", \"10\", \"100\"\nprint(c.zfill(3))\nd = 'hello i am abdullah'\nprint(d.split(\" \", 2))\nprint(d.split())\no = 'osama'\nprint(o.center(9, '#'))\ni = 'i love my syria , syria is beauty ,fk u syria'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "d = 'hello i am abdullah'\nprint(d.split(\" \", 2))\nprint(d.split())\no = 'osama'\nprint(o.center(9, '#'))\ni = 'i love my syria , syria is beauty ,fk u syria'\nprint(i.count('syria'))\np = 'hello ahmad'\nprint(p.find('k'))  # بتطالع -1\n# print(p.index('k')) بتطالع ايرور",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "o = 'osama'\nprint(o.center(9, '#'))\ni = 'i love my syria , syria is beauty ,fk u syria'\nprint(i.count('syria'))\np = 'hello ahmad'\nprint(p.find('k'))  # بتطالع -1\n# print(p.index('k')) بتطالع ايرور\nk = 'abdullahsermani2003'\nprint(k.ljust(30, \"@\"))\ne = \"\"\"i",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "i = 'i love my syria , syria is beauty ,fk u syria'\nprint(i.count('syria'))\np = 'hello ahmad'\nprint(p.find('k'))  # بتطالع -1\n# print(p.index('k')) بتطالع ايرور\nk = 'abdullahsermani2003'\nprint(k.ljust(30, \"@\"))\ne = \"\"\"i\nam\nabdullah",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "p = 'hello ahmad'\nprint(p.find('k'))  # بتطالع -1\n# print(p.index('k')) بتطالع ايرور\nk = 'abdullahsermani2003'\nprint(k.ljust(30, \"@\"))\ne = \"\"\"i\nam\nabdullah\n\"\"\"\nprint(e.splitlines())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "k = 'abdullahsermani2003'\nprint(k.ljust(30, \"@\"))\ne = \"\"\"i\nam\nabdullah\n\"\"\"\nprint(e.splitlines())\na = 'ahmad sermani'\nprint(a.replace('ahmad', 'abdullah'))\nlis = ['ahmad', 'sermani']",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "e = \"\"\"i\nam\nabdullah\n\"\"\"\nprint(e.splitlines())\na = 'ahmad sermani'\nprint(a.replace('ahmad', 'abdullah'))\nlis = ['ahmad', 'sermani']\nprint(' '.join(lis))\nname = 'abdullah'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'ahmad sermani'\nprint(a.replace('ahmad', 'abdullah'))\nlis = ['ahmad', 'sermani']\nprint(' '.join(lis))\nname = 'abdullah'\nage = 23\nprint('my name is %s my age is %d' % (name, age))\nname = 'abdullah '\nrank = 2\nprint('hello my name is {}'.format(name))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "lis",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "lis = ['ahmad', 'sermani']\nprint(' '.join(lis))\nname = 'abdullah'\nage = 23\nprint('my name is %s my age is %d' % (name, age))\nname = 'abdullah '\nrank = 2\nprint('hello my name is {}'.format(name))\nprint('hello my name is {:s} and my rank is {:.3f}'.format(name, rank))\n# {:.5s} بتشتغل شغل ال slice",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "name = 'abdullah'\nage = 23\nprint('my name is %s my age is %d' % (name, age))\nname = 'abdullah '\nrank = 2\nprint('hello my name is {}'.format(name))\nprint('hello my name is {:s} and my rank is {:.3f}'.format(name, rank))\n# {:.5s} بتشتغل شغل ال slice\ntext = 'hello i am abdullah welcome'\nprint('{:.5s} kefaaaaaaaaaaaaaak'.format(text))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "age = 23\nprint('my name is %s my age is %d' % (name, age))\nname = 'abdullah '\nrank = 2\nprint('hello my name is {}'.format(name))\nprint('hello my name is {:s} and my rank is {:.3f}'.format(name, rank))\n# {:.5s} بتشتغل شغل ال slice\ntext = 'hello i am abdullah welcome'\nprint('{:.5s} kefaaaaaaaaaaaaaak'.format(text))\na, b, c = \"one\", 'two', \"three\"",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "name = 'abdullah '\nrank = 2\nprint('hello my name is {}'.format(name))\nprint('hello my name is {:s} and my rank is {:.3f}'.format(name, rank))\n# {:.5s} بتشتغل شغل ال slice\ntext = 'hello i am abdullah welcome'\nprint('{:.5s} kefaaaaaaaaaaaaaak'.format(text))\na, b, c = \"one\", 'two', \"three\"\nprint('hello {2} {1} {0}'.format(a, b, c))\nname = 'abdullah'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "rank",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "rank = 2\nprint('hello my name is {}'.format(name))\nprint('hello my name is {:s} and my rank is {:.3f}'.format(name, rank))\n# {:.5s} بتشتغل شغل ال slice\ntext = 'hello i am abdullah welcome'\nprint('{:.5s} kefaaaaaaaaaaaaaak'.format(text))\na, b, c = \"one\", 'two', \"three\"\nprint('hello {2} {1} {0}'.format(a, b, c))\nname = 'abdullah'\nage = 30",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "text = 'hello i am abdullah welcome'\nprint('{:.5s} kefaaaaaaaaaaaaaak'.format(text))\na, b, c = \"one\", 'two', \"three\"\nprint('hello {2} {1} {0}'.format(a, b, c))\nname = 'abdullah'\nage = 30\nrank = 40\nprint(f'hello i am {name} and my age is {age} and our rank is {rank}')\na = [1, 2, 3]\nb = [4, 5, 6]",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "name = 'abdullah'\nage = 30\nrank = 40\nprint(f'hello i am {name} and my age is {age} and our rank is {rank}')\na = [1, 2, 3]\nb = [4, 5, 6]\nprint(a+b)\na = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "age = 30\nrank = 40\nprint(f'hello i am {name} and my age is {age} and our rank is {rank}')\na = [1, 2, 3]\nb = [4, 5, 6]\nprint(a+b)\na = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps\nprint(a[1:5:2])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "rank",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "rank = 40\nprint(f'hello i am {name} and my age is {age} and our rank is {rank}')\na = [1, 2, 3]\nb = [4, 5, 6]\nprint(a+b)\na = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps\nprint(a[1:5:2])\na[0:2] = [3, 4]",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = [1, 2, 3]\nb = [4, 5, 6]\nprint(a+b)\na = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps\nprint(a[1:5:2])\na[0:2] = [3, 4]\nprint(a)\nb = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud']",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = [4, 5, 6]\nprint(a+b)\na = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps\nprint(a[1:5:2])\na[0:2] = [3, 4]\nprint(a)\nb = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud']\nb.append('ibrahim')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = [1, 2, True, 'sasky', 'ahmad', False]\nprint(a[1:5])\n# steps\nprint(a[1:5:2])\na[0:2] = [3, 4]\nprint(a)\nb = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud']\nb.append('ibrahim')\nb.insert(2, 'haytham')\nprint(b)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a[0:2]",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a[0:2] = [3, 4]\nprint(a)\nb = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud']\nb.append('ibrahim')\nb.insert(2, 'haytham')\nprint(b)\na = ('osama')\nprint(type(a))\na = ('osama',)\nprint(type(a))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud']\nb.append('ibrahim')\nb.insert(2, 'haytham')\nprint(b)\na = ('osama')\nprint(type(a))\na = ('osama',)\nprint(type(a))\na = 'osama'\nb = ('ahmad', 1, 2)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = ('osama')\nprint(type(a))\na = ('osama',)\nprint(type(a))\na = 'osama'\nb = ('ahmad', 1, 2)\nc = ['abdullah', 5, 6]\nprint(a*6)\nprint(b*6)\nprint(c*6)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = ('osama',)\nprint(type(a))\na = 'osama'\nb = ('ahmad', 1, 2)\nc = ['abdullah', 5, 6]\nprint(a*6)\nprint(b*6)\nprint(c*6)\na = (1, 2, 3, 1, 1, 1, 1)\nprint(a.count(1))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'osama'\nb = ('ahmad', 1, 2)\nc = ['abdullah', 5, 6]\nprint(a*6)\nprint(b*6)\nprint(c*6)\na = (1, 2, 3, 1, 1, 1, 1)\nprint(a.count(1))\nprint(f'the position of 7 is {a.index(3)}')\na = ('a', 'b', 5, 'c')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = ('ahmad', 1, 2)\nc = ['abdullah', 5, 6]\nprint(a*6)\nprint(b*6)\nprint(c*6)\na = (1, 2, 3, 1, 1, 1, 1)\nprint(a.count(1))\nprint(f'the position of 7 is {a.index(3)}')\na = ('a', 'b', 5, 'c')\nc, b, _, d = a",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "c = ['abdullah', 5, 6]\nprint(a*6)\nprint(b*6)\nprint(c*6)\na = (1, 2, 3, 1, 1, 1, 1)\nprint(a.count(1))\nprint(f'the position of 7 is {a.index(3)}')\na = ('a', 'b', 5, 'c')\nc, b, _, d = a\nprint(c)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = (1, 2, 3, 1, 1, 1, 1)\nprint(a.count(1))\nprint(f'the position of 7 is {a.index(3)}')\na = ('a', 'b', 5, 'c')\nc, b, _, d = a\nprint(c)\nprint(b)\nprint(d)\na = {'ahmad', 'osama', 'sana', 'ahmad'}\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = ('a', 'b', 5, 'c')\nc, b, _, d = a\nprint(c)\nprint(b)\nprint(d)\na = {'ahmad', 'osama', 'sana', 'ahmad'}\nprint(a)\na = {1, 2}\nb = {3, 4}\nc = ['a', 'b']",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {'ahmad', 'osama', 'sana', 'ahmad'}\nprint(a)\na = {1, 2}\nb = {3, 4}\nc = ['a', 'b']\nprint(a | b)\nprint(a.union(b))\nprint(a.union(c))\na.add(5)\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2}\nb = {3, 4}\nc = ['a', 'b']\nprint(a | b)\nprint(a.union(b))\nprint(a.union(c))\na.add(5)\nprint(a)\na.discard(5)\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {3, 4}\nc = ['a', 'b']\nprint(a | b)\nprint(a.union(b))\nprint(a.union(c))\na.add(5)\nprint(a)\na.discard(5)\nprint(a)\na.remove(1)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "c = ['a', 'b']\nprint(a | b)\nprint(a.union(b))\nprint(a.union(c))\na.add(5)\nprint(a)\na.discard(5)\nprint(a)\na.remove(1)\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3}\nb = {'a', 'b'}\na.update(b)\nprint(a)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a)\nprint(a.difference(b))\na.difference_update(b)\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {'a', 'b'}\na.update(b)\nprint(a)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a)\nprint(a.difference(b))\na.difference_update(b)\nprint(a)\na = {1, 2, 3}",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a)\nprint(a.difference(b))\na.difference_update(b)\nprint(a)\na = {1, 2, 3}\nb = {1, 4, 'a'}\nprint(a)\nprint(a.intersection(b))  # التشابه",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {1, 2, 3}\nprint(a)\nprint(a.difference(b))\na.difference_update(b)\nprint(a)\na = {1, 2, 3}\nb = {1, 4, 'a'}\nprint(a)\nprint(a.intersection(b))  # التشابه\nprint(a)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3}\nb = {1, 4, 'a'}\nprint(a)\nprint(a.intersection(b))  # التشابه\nprint(a)\nprint('=' * 10)\na = {1, 2, 3, 4}\nb = {1, 2, 3, 'b'}\nprint(a)\nprint(a.difference(b))  # فرق اي عن بي",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {1, 4, 'a'}\nprint(a)\nprint(a.intersection(b))  # التشابه\nprint(a)\nprint('=' * 10)\na = {1, 2, 3, 4}\nb = {1, 2, 3, 'b'}\nprint(a)\nprint(a.difference(b))  # فرق اي عن بي\nprint(a.symmetric_difference(b))  # الفرق بين التنين",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3, 4}\nb = {1, 2, 3, 'b'}\nprint(a)\nprint(a.difference(b))  # فرق اي عن بي\nprint(a.symmetric_difference(b))  # الفرق بين التنين\na.difference_update(b)\nprint(a)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a.issuperset(b))  # هل اي تحوي جميع عناصر بي",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {1, 2, 3, 'b'}\nprint(a)\nprint(a.difference(b))  # فرق اي عن بي\nprint(a.symmetric_difference(b))  # الفرق بين التنين\na.difference_update(b)\nprint(a)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a.issuperset(b))  # هل اي تحوي جميع عناصر بي\nprint(a.issubset(b))  # هل بي تحوي جميع عناصر ال اي",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3, 4}\nb = {1, 2, 3}\nprint(a.issuperset(b))  # هل اي تحوي جميع عناصر بي\nprint(a.issubset(b))  # هل بي تحوي جميع عناصر ال اي\nprint('='*100)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nc = {7, 8, 9}\nprint(a.isdisjoint(b))  # هل اي مختلفة تماما عن بي\nprint(a.isdisjoint(c))  # هل اي مختلفة تماما عن سي",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {1, 2, 3}\nprint(a.issuperset(b))  # هل اي تحوي جميع عناصر بي\nprint(a.issubset(b))  # هل بي تحوي جميع عناصر ال اي\nprint('='*100)\na = {1, 2, 3, 4}\nb = {1, 2, 3}\nc = {7, 8, 9}\nprint(a.isdisjoint(b))  # هل اي مختلفة تماما عن بي\nprint(a.isdisjoint(c))  # هل اي مختلفة تماما عن سي\nuser = {",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {1, 2, 3, 4}\nb = {1, 2, 3}\nc = {7, 8, 9}\nprint(a.isdisjoint(b))  # هل اي مختلفة تماما عن بي\nprint(a.isdisjoint(c))  # هل اي مختلفة تماما عن سي\nuser = {\n    'name': 'abdullah',\n    'age': 14,\n    'country': 'aleppo',\n    'dec': {'a': 1, 'b': 2}",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = {1, 2, 3}\nc = {7, 8, 9}\nprint(a.isdisjoint(b))  # هل اي مختلفة تماما عن بي\nprint(a.isdisjoint(c))  # هل اي مختلفة تماما عن سي\nuser = {\n    'name': 'abdullah',\n    'age': 14,\n    'country': 'aleppo',\n    'dec': {'a': 1, 'b': 2}\n}",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "c = {7, 8, 9}\nprint(a.isdisjoint(b))  # هل اي مختلفة تماما عن بي\nprint(a.isdisjoint(c))  # هل اي مختلفة تماما عن سي\nuser = {\n    'name': 'abdullah',\n    'age': 14,\n    'country': 'aleppo',\n    'dec': {'a': 1, 'b': 2}\n}\nprint(user['name'])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "user = {\n    'name': 'abdullah',\n    'age': 14,\n    'country': 'aleppo',\n    'dec': {'a': 1, 'b': 2}\n}\nprint(user['name'])\nprint(user.get('age'))\nprint(user.keys())\nprint(user.values())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "user = {\n    'name': 'ahmad'\n}\n# user.clear()\nprint(user)\nuser['age'] = 23\nprint(user)\nuser.update({\n    'country': 'aleppo'\n})",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "user['age']",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "user['age'] = 23\nprint(user)\nuser.update({\n    'country': 'aleppo'\n})\nprint(user)\nuser.setdefault('ages', 5)\nprint(user)\nuser.update({'from': 'ariha'})\nprint(user)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = {\n    'name': 'ahmad',\n    'car': 'rio'\n}\nitems = a.items()  # اذا صار اي تغيير بتحفظو\nold = a.copy()  # اذا صار اي تغيير ما بتحفظو\nprint(items)\nprint(old)\na.update({'age': 40})\nprint(items)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "items = a.items()  # اذا صار اي تغيير بتحفظو\nold = a.copy()  # اذا صار اي تغيير ما بتحفظو\nprint(items)\nprint(old)\na.update({'age': 40})\nprint(items)\nprint(old)\na = ('a', 'b', 'c')\nb = 'X'\nprint(dict.fromkeys(a, b))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "old",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "old = a.copy()  # اذا صار اي تغيير ما بتحفظو\nprint(items)\nprint(old)\na.update({'age': 40})\nprint(items)\nprint(old)\na = ('a', 'b', 'c')\nb = 'X'\nprint(dict.fromkeys(a, b))\nprint(bool([1, 2, 3]))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = ('a', 'b', 'c')\nb = 'X'\nprint(dict.fromkeys(a, b))\nprint(bool([1, 2, 3]))\nprint(bool([]))\nprint('='*100)\nx = 5\na = 'd'\ny = 3\nif x < 10 and a == \"d\" or y == 3:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "b = 'X'\nprint(dict.fromkeys(a, b))\nprint(bool([1, 2, 3]))\nprint(bool([]))\nprint('='*100)\nx = 5\na = 'd'\ny = 3\nif x < 10 and a == \"d\" or y == 3:\n    print(True)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = 5\na = 'd'\ny = 3\nif x < 10 and a == \"d\" or y == 3:\n    print(True)\nprint(not x < 10)\nx = input('what\\'s your name').strip().capitalize()\ny = input('what is your last name').strip().capitalize()\nprint(f'hello {x:.1s} {y:.2s} how r u ')\nemail = 'abdullahsermani@gmail.com'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'd'\ny = 3\nif x < 10 and a == \"d\" or y == 3:\n    print(True)\nprint(not x < 10)\nx = input('what\\'s your name').strip().capitalize()\ny = input('what is your last name').strip().capitalize()\nprint(f'hello {x:.1s} {y:.2s} how r u ')\nemail = 'abdullahsermani@gmail.com'\nemail.index('@')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "y = 3\nif x < 10 and a == \"d\" or y == 3:\n    print(True)\nprint(not x < 10)\nx = input('what\\'s your name').strip().capitalize()\ny = input('what is your last name').strip().capitalize()\nprint(f'hello {x:.1s} {y:.2s} how r u ')\nemail = 'abdullahsermani@gmail.com'\nemail.index('@')\nprint(email[0:email.index('@')])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = input('what\\'s your name').strip().capitalize()\ny = input('what is your last name').strip().capitalize()\nprint(f'hello {x:.1s} {y:.2s} how r u ')\nemail = 'abdullahsermani@gmail.com'\nemail.index('@')\nprint(email[0:email.index('@')])\na = 5\nif a == 5:\n    print(f'the value of a is {a:d}')\nprint(f'the value of a is {a}' if a == 5 else 'dont print any thing')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "y = input('what is your last name').strip().capitalize()\nprint(f'hello {x:.1s} {y:.2s} how r u ')\nemail = 'abdullahsermani@gmail.com'\nemail.index('@')\nprint(email[0:email.index('@')])\na = 5\nif a == 5:\n    print(f'the value of a is {a:d}')\nprint(f'the value of a is {a}' if a == 5 else 'dont print any thing')\nlista = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud', 'ibrahim']",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "email = 'abdullahsermani@gmail.com'\nemail.index('@')\nprint(email[0:email.index('@')])\na = 5\nif a == 5:\n    print(f'the value of a is {a:d}')\nprint(f'the value of a is {a}' if a == 5 else 'dont print any thing')\nlista = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud', 'ibrahim']\nname = ' abdullah'.strip()\nif name in lista:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 5\nif a == 5:\n    print(f'the value of a is {a:d}')\nprint(f'the value of a is {a}' if a == 5 else 'dont print any thing')\nlista = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud', 'ibrahim']\nname = ' abdullah'.strip()\nif name in lista:\n    print('this is the member of family')\nx = 0\nwhile x < 5:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "lista = ['ahmad', 'abdullah', 'sana', 'fateh', 'mahmoud', 'ibrahim']\nname = ' abdullah'.strip()\nif name in lista:\n    print('this is the member of family')\nx = 0\nwhile x < 5:\n    print('hello')\n    x += 1\nelse:\n    print('end of loop')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "name = ' abdullah'.strip()\nif name in lista:\n    print('this is the member of family')\nx = 0\nwhile x < 5:\n    print('hello')\n    x += 1\nelse:\n    print('end of loop')\nx = {'a': 'ahmad',",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = 0\nwhile x < 5:\n    print('hello')\n    x += 1\nelse:\n    print('end of loop')\nx = {'a': 'ahmad',\n     'b': 'abdullah'}\nfor z in x:\n    print(f'the value {z} contains {x[z]}')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = {'a': 'ahmad',\n     'b': 'abdullah'}\nfor z in x:\n    print(f'the value {z} contains {x[z]}')\nfor k, l in x.items():\n    print(f'the value {k} contains {l}')\nx = {\n    '3': {\n        '4': 'c'\n    }",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = {\n    '3': {\n        '4': 'c'\n    }\n}\nfor k, l in x.items():\n    print(f'the key is {k} and the value is {l}')\n    for r, t in l.items():\n        print(f'the key is {r} and the value is {t}')\ndef function():",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "t = [1, 2, 3, 4]\nprint(t)\n# اذا بدي اعرض بدون ما يحطلي العناصر ضمن ليست\nprint(*t)\n# اذا بدي دخل عدد كبير من البراميترز\ndef hello(*lista):\n    print(type(lista))\n    for name in lista:\n        print(f'hello {name}')\nhello('abdullah', 'ahmad', 'fateh')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "dec",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "dec = {'abdullah': 'sermani',\n       'age': 22\n       }\nhello(**dec)\ndef x():\n    global x\n    x = 5\nx()\nprint(x)\n# lampda fun",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file = open('abd.txt', 'r')\n# print(file.read())\nfor line in file:\n    if line.startswith('fuck'):\n        break\n    print(line)\nfile.close()\nFILE = open(r'C:\\Users\\ASUS\\Desktop\\backend\\python zero\\abd.txt', 'r')\nprint(FILE.read())\nFILE.close()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "FILE",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "FILE = open(r'C:\\Users\\ASUS\\Desktop\\backend\\python zero\\abd.txt', 'r')\nprint(FILE.read())\nFILE.close()\nfile = open('abd.txt', 'w')\nfile.write('hello python\\n'*20)  # بشيل محتوى الملف وبيكتب شي جديد\nmylist = ['ahmad\\n', 'abdullah\\n']\nfile.writelines(mylist)\nfile.writelines('abdullah hellooo')\nfile.close()\nfile1 = open('abd.txt', 'a')  # بتضيف للمحتوى الموجود",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file = open('abd.txt', 'w')\nfile.write('hello python\\n'*20)  # بشيل محتوى الملف وبيكتب شي جديد\nmylist = ['ahmad\\n', 'abdullah\\n']\nfile.writelines(mylist)\nfile.writelines('abdullah hellooo')\nfile.close()\nfile1 = open('abd.txt', 'a')  # بتضيف للمحتوى الموجود\nfile1.write('\\nhello again')\nfile1.close()\nfile2 = open('abd.txt', 'a')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist = ['ahmad\\n', 'abdullah\\n']\nfile.writelines(mylist)\nfile.writelines('abdullah hellooo')\nfile.close()\nfile1 = open('abd.txt', 'a')  # بتضيف للمحتوى الموجود\nfile1.write('\\nhello again')\nfile1.close()\nfile2 = open('abd.txt', 'a')\nfile2.truncate(5)  # بتقص من المحتوى الموجود\nfile2.close()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file1 = open('abd.txt', 'a')  # بتضيف للمحتوى الموجود\nfile1.write('\\nhello again')\nfile1.close()\nfile2 = open('abd.txt', 'a')\nfile2.truncate(5)  # بتقص من المحتوى الموجود\nfile2.close()\nfile3 = open('abd.txt', 'a')\nprint(file3.tell())  # tell me where is the cruser\nfile3.close()\nfile4 = open('abd.txt', 'a')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file2 = open('abd.txt', 'a')\nfile2.truncate(5)  # بتقص من المحتوى الموجود\nfile2.close()\nfile3 = open('abd.txt', 'a')\nprint(file3.tell())  # tell me where is the cruser\nfile3.close()\nfile4 = open('abd.txt', 'a')\nfile4.write('\\nhello python\\n'*20)\nfile4.close()\nfile5 = open('abd.txt', 'r')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file3",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file3 = open('abd.txt', 'a')\nprint(file3.tell())  # tell me where is the cruser\nfile3.close()\nfile4 = open('abd.txt', 'a')\nfile4.write('\\nhello python\\n'*20)\nfile4.close()\nfile5 = open('abd.txt', 'r')\nfile5.seek(30)\nfile5.read()\nfile5.close()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file4",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file4 = open('abd.txt', 'a')\nfile4.write('\\nhello python\\n'*20)\nfile4.close()\nfile5 = open('abd.txt', 'r')\nfile5.seek(30)\nfile5.read()\nfile5.close()\nprint('*'*100)\nx = [1, 2, 3, []]\nif all(x):",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "file5",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "file5 = open('abd.txt', 'r')\nfile5.seek(30)\nfile5.read()\nfile5.close()\nprint('*'*100)\nx = [1, 2, 3, []]\nif all(x):\n    print('all true')\nelse:\n    print('there is one false')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = [1, 2, 3, []]\nif all(x):\n    print('all true')\nelse:\n    print('there is one false')\nif any(x):\n    print('one at least true')\nelse:\n    print('all false')\nprint(bin(2))  # بترجعلي الرقم bin",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = 1\nprint(id(x))  # address\n# sum([],start)\n# ليست بالعناصر الي بدي اجمعا اما محل الصفر بحط الرقم الي بدي ضيف عليه هي الليست\nx = sum([1, 2, 3, 4], 0)\nprint(x)\n# range(start,end,step)\nprint(list(range(2, 5, 1)))\nprint('hello', 'abdullah', sep='|')\na = 'abdullah'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = sum([1, 2, 3, 4], 0)\nprint(x)\n# range(start,end,step)\nprint(list(range(2, 5, 1)))\nprint('hello', 'abdullah', sep='|')\na = 'abdullah'\nprint(a[slice(0, 3)])\n# وظيفة ال map\n# بكون عندي فانكشن الها برامترايز وبكون عندي ليست وبدي دخل هالليست كبرامترايز للفنكشن\n# map(function with paramitares , list)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'abdullah'\nprint(a[slice(0, 3)])\n# وظيفة ال map\n# بكون عندي فانكشن الها برامترايز وبكون عندي ليست وبدي دخل هالليست كبرامترايز للفنكشن\n# map(function with paramitares , list)\n# map called map because it map the function for every element in list\nx = ['ahmad', 'abdullah', 'sana']\nfor name in list(map((lambda text: f'hello {text}'), x)):\n    print(name)\nnames = ['ahmad', 'abdullah', 'ibrahim']",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = ['ahmad', 'abdullah', 'sana']\nfor name in list(map((lambda text: f'hello {text}'), x)):\n    print(name)\nnames = ['ahmad', 'abdullah', 'ibrahim']\nfor x in list(filter(lambda name: name.startswith('i'), names)):\n    print(x)\n# reduce\n# تعمل هذه الفانكشن على تقليل عدد العناصر للوصول لعنصر واحد بالاخير\ndef sum(num1, num2):\n    return num1 + num2",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "names = ['ahmad', 'abdullah', 'ibrahim']\nfor x in list(filter(lambda name: name.startswith('i'), names)):\n    print(x)\n# reduce\n# تعمل هذه الفانكشن على تقليل عدد العناصر للوصول لعنصر واحد بالاخير\ndef sum(num1, num2):\n    return num1 + num2\nnum = [1, 2, 3, 4, 5]\nres = reduce(sum, num)\nprint(res)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "num = [1, 2, 3, 4, 5]\nres = reduce(sum, num)\nprint(res)\n# العملية الي صارت\n# ((((1+2)+3)+4)+5)\n# enumerate()\n# بتضفلي كاونتر يعني عداد\nmyskills = {'html', 'css', 'python', 'django', 'git&github'}\nmyskillswithcounter = enumerate(myskills)\n# for skill in myskillswithcounter :",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "res = reduce(sum, num)\nprint(res)\n# العملية الي صارت\n# ((((1+2)+3)+4)+5)\n# enumerate()\n# بتضفلي كاونتر يعني عداد\nmyskills = {'html', 'css', 'python', 'django', 'git&github'}\nmyskillswithcounter = enumerate(myskills)\n# for skill in myskillswithcounter :\n#    print(skill)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "myskills",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "myskills = {'html', 'css', 'python', 'django', 'git&github'}\nmyskillswithcounter = enumerate(myskills)\n# for skill in myskillswithcounter :\n#    print(skill)\nfor counter, skill in myskillswithcounter:\n    print(f'{counter} - {skill}')\nprint('*'*100)\na = [1, 2, 3, 4]\nfor x in reversed(a):\n    print(x)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "myskillswithcounter",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "myskillswithcounter = enumerate(myskills)\n# for skill in myskillswithcounter :\n#    print(skill)\nfor counter, skill in myskillswithcounter:\n    print(f'{counter} - {skill}')\nprint('*'*100)\na = [1, 2, 3, 4]\nfor x in reversed(a):\n    print(x)\na = 'ahmad'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = [1, 2, 3, 4]\nfor x in reversed(a):\n    print(x)\na = 'ahmad'\nfor x in reversed(a):\n    print(x)\nprint(random)\n# بتولدلي راندوم نامبر\nprint(random.random())\n# dir",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'ahmad'\nfor x in reversed(a):\n    print(x)\nprint(random)\n# بتولدلي راندوم نامبر\nprint(random.random())\n# dir\n# بتطالعلي كل الفانكشن الموجودة ضمن الموديول\nprint(dir(random))\nprint(f'print random int {randint(100,222)}')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mybirth",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mybirth = datetime.datetime(2002, 8, 11)\ndatenow = datetime.datetime.now()\nprint(f'my birth is {mybirth}')\nprint(f'date now is {datenow}')\nprint(f'i lived for {(datenow-mybirth).days} days ')\nmybirth = datetime.datetime(2002, 8, 11)\nprint(mybirth.strftime('%B'))\nprint(mybirth.strftime('%d %B %y'))\nprint('*'*100)\n# iterable like (list , string ,tuple , dictionary ,set)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "datenow",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "datenow = datetime.datetime.now()\nprint(f'my birth is {mybirth}')\nprint(f'date now is {datenow}')\nprint(f'i lived for {(datenow-mybirth).days} days ')\nmybirth = datetime.datetime(2002, 8, 11)\nprint(mybirth.strftime('%B'))\nprint(mybirth.strftime('%d %B %y'))\nprint('*'*100)\n# iterable like (list , string ,tuple , dictionary ,set)\n# منقدر منمر على العناصر بحلقة فور",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mybirth",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mybirth = datetime.datetime(2002, 8, 11)\nprint(mybirth.strftime('%B'))\nprint(mybirth.strftime('%d %B %y'))\nprint('*'*100)\n# iterable like (list , string ,tuple , dictionary ,set)\n# منقدر منمر على العناصر بحلقة فور\n# iterator\n# بيستخدم ليجبلي عنصر واحد من الاتريبل\n# اول شي بحول الاتريبل لاتريتر عن طريق\n# iter()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mystring",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mystring = 'osama'\nmyiterator = iter(mystring)\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\n# for i in myiterator :\n# print(i)\n# generator",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "myiterator",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "myiterator = iter(mystring)\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\nprint(next(myiterator))\n# for i in myiterator :\n# print(i)\n# generator\n# هو متل الفانكشن بس بيستخدم",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mygen",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mygen = generator()\nprint('hello')\nprint(next(mygen))\nprint('how r u ')\nprint(next(mygen))\nprint('fuck u')\nprint(next(mygen))\n# حلقة فور هون بتكمل من عند اخر شي , اخر شي كان 3 بتكمل من الاربعة وبتوقف\nfor i in mygen:\n    print(i)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list1 = [1, 2, 4, 5, 6]\nlist2 = ['a', 'b']\nultimatelist = zip(list1, list2)\nprint(ultimatelist)\nfor id2, id1 in ultimatelist:\n    print(f'this is from list1 {id2}')\n    print(f'this is from list2 {id1}')\nprint('='*100)\n# مكتبة pillow\n# هي مكتبة مسؤولة عن تعديل الصور",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list2 = ['a', 'b']\nultimatelist = zip(list1, list2)\nprint(ultimatelist)\nfor id2, id1 in ultimatelist:\n    print(f'this is from list1 {id2}')\n    print(f'this is from list2 {id1}')\nprint('='*100)\n# مكتبة pillow\n# هي مكتبة مسؤولة عن تعديل الصور\nimg = Image.open(r'C:\\Users\\ASUS\\Desktop\\backend\\python zero\\1305320.jpg')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "ultimatelist",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "ultimatelist = zip(list1, list2)\nprint(ultimatelist)\nfor id2, id1 in ultimatelist:\n    print(f'this is from list1 {id2}')\n    print(f'this is from list2 {id1}')\nprint('='*100)\n# مكتبة pillow\n# هي مكتبة مسؤولة عن تعديل الصور\nimg = Image.open(r'C:\\Users\\ASUS\\Desktop\\backend\\python zero\\1305320.jpg')\n# img.show()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "img",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "img = Image.open(r'C:\\Users\\ASUS\\Desktop\\backend\\python zero\\1305320.jpg')\n# img.show()\n# newimg = img.crop((100,100,100,100))\n# newimg.show()\nprint('='*100)\ndef sayhello(name):\n    # this is documentation\n    '''this is fucnction say hello'''\n    print(f'hello {name}')\n# this __doc__ to show the documentation",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = input('enter the pos number')\nif int(x) < 0:\n    raise Exception('wrong input')\nx = int(input('enter the number'))\nif type(x) != int:\n    raise ValueError('only int accepted')\ntry:  # test the code and test error\n    x = int(input('enter the integer'))\nexcept:  # handle the error that found\n    print('this is not integer')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = int(input('enter the number'))\nif type(x) != int:\n    raise ValueError('only int accepted')\ntry:  # test the code and test error\n    x = int(input('enter the integer'))\nexcept:  # handle the error that found\n    print('this is not integer')\nelse:  # if there is no error\n    print('good , this is integer')\nfinally:  # if u catch an error or not that will happen",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "x = 'hel'\nif x is not int:\n    print('fuck')\nprint('='*100)\n# hint\ndef say_hello(name) -> str:\n    print(f'hello {name}')\nsay_hello('abdullah')\nprint('='*100)\n# تعلم لغة Python درس 095# - تعلم Regular Expressions الجزء الأول - مقدمة",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "my_string = re.search(r'[A-Z]{2}', 'AAbdullah SSermani')\nprint(my_string)\nprint('')\n# position of search\nprint(my_string.span())\nprint(my_string.group())\nprint('')\nis_email = re.search(r'[A-z0-9\\.]+@[A-z0-9]+\\.com|net',\n                     \"abdullahsermani2003@gmail.com\")\nif is_email:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "is_email",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "is_email = re.search(r'[A-z0-9\\.]+@[A-z0-9]+\\.com|net',\n                     \"abdullahsermani2003@gmail.com\")\nif is_email:\n    print(f'this is an email {is_email.group()}')\nelse:\n    print(f'unvalid email ')\nprint('')\nemail_input = input('plz enter your email')\nsearch = re.findall(r'[A-z0-9\\.]+@[A-z0-9]+\\.com|net', email_input)\nempty_list = []",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "email_input",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "email_input = input('plz enter your email')\nsearch = re.findall(r'[A-z0-9\\.]+@[A-z0-9]+\\.com|net', email_input)\nempty_list = []\nif search != []:\n    empty_list.append(search)\n    print('email added')\nelse:\n    print('unvalid email')\nfor email in empty_list:\n    print(email)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "search = re.findall(r'[A-z0-9\\.]+@[A-z0-9]+\\.com|net', email_input)\nempty_list = []\nif search != []:\n    empty_list.append(search)\n    print('email added')\nelse:\n    print('unvalid email')\nfor email in empty_list:\n    print(email)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "empty_list",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "empty_list = []\nif search != []:\n    empty_list.append(search)\n    print('email added')\nelse:\n    print('unvalid email')\nfor email in empty_list:\n    print(email)\nprint('')\nstr1 = 'helllo i am abdullah'",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "str1 = 'helllo i am abdullah'\nser1 = re.split(r'\\s', str1, 2)\nprint(ser1)\nprint('')\nstr2 = 'how_to write -avery_good-article'\nser2 = re.split(r'-|_', str2)\nprint(ser2)\nprint('')\na = 'i love python'\nprint(re.sub(r'\\s', '-', a))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "ser1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "ser1 = re.split(r'\\s', str1, 2)\nprint(ser1)\nprint('')\nstr2 = 'how_to write -avery_good-article'\nser2 = re.split(r'-|_', str2)\nprint(ser2)\nprint('')\na = 'i love python'\nprint(re.sub(r'\\s', '-', a))\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "str2 = 'how_to write -avery_good-article'\nser2 = re.split(r'-|_', str2)\nprint(ser2)\nprint('')\na = 'i love python'\nprint(re.sub(r'\\s', '-', a))\nprint('')\nweb = 'https\\\\www.google.com'\nserweb = re.search(r'(\\w+)\\.(\\w+)\\.(\\w+)', web, re.IGNORECASE)\nprint(serweb.group())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "ser2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "ser2 = re.split(r'-|_', str2)\nprint(ser2)\nprint('')\na = 'i love python'\nprint(re.sub(r'\\s', '-', a))\nprint('')\nweb = 'https\\\\www.google.com'\nserweb = re.search(r'(\\w+)\\.(\\w+)\\.(\\w+)', web, re.IGNORECASE)\nprint(serweb.group())\nprint(serweb.groups())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = 'i love python'\nprint(re.sub(r'\\s', '-', a))\nprint('')\nweb = 'https\\\\www.google.com'\nserweb = re.search(r'(\\w+)\\.(\\w+)\\.(\\w+)', web, re.IGNORECASE)\nprint(serweb.group())\nprint(serweb.groups())\nfor group in serweb.groups():\n    print(group)\nprint('='*100)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "web",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "web = 'https\\\\www.google.com'\nserweb = re.search(r'(\\w+)\\.(\\w+)\\.(\\w+)', web, re.IGNORECASE)\nprint(serweb.group())\nprint(serweb.groups())\nfor group in serweb.groups():\n    print(group)\nprint('='*100)\n# اي ميثود في البايسون قبلها __وبعدها __ تسمى\n# بالماجيك ميثود او الداندار\nclass Member:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "serweb",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "serweb = re.search(r'(\\w+)\\.(\\w+)\\.(\\w+)', web, re.IGNORECASE)\nprint(serweb.group())\nprint(serweb.groups())\nfor group in serweb.groups():\n    print(group)\nprint('='*100)\n# اي ميثود في البايسون قبلها __وبعدها __ تسمى\n# بالماجيك ميثود او الداندار\nclass Member:\n    # الاتربيوت الخاصة بالكلاس يتم مناداتها داخل الكلاس عن طريق اسم الكلاس نفسو",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "member_one",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "member_one = Member('abdullah', 'sermani')\nmember_two = Member('ahmad', 'sermani')\nmember_three = Member('sana', 'sermani')\nprint(member_one.__class__)\nprint(member_one.lname)\nprint(member_one.full_name())\nprint(member_one.not_allowed_names)\nprint(Member.counter)\nMember.show_counter()\nMember.sayhello()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "member_two",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "member_two = Member('ahmad', 'sermani')\nmember_three = Member('sana', 'sermani')\nprint(member_one.__class__)\nprint(member_one.lname)\nprint(member_one.full_name())\nprint(member_one.not_allowed_names)\nprint(Member.counter)\nMember.show_counter()\nMember.sayhello()\nprint(member_one)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "member_three",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "member_three = Member('sana', 'sermani')\nprint(member_one.__class__)\nprint(member_one.lname)\nprint(member_one.full_name())\nprint(member_one.not_allowed_names)\nprint(Member.counter)\nMember.show_counter()\nMember.sayhello()\nprint(member_one)\nprint(len(member_one))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "food_two",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "food_two = Apple('pizza')\nfood_two.eat()\nclass baseone:\n    def __init__(self) -> None:\n        print('base one')\n    def funcone(self):\n        print('one')\nclass basetwo:\n    def __init__(self) -> None:\n        print('base two')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "o1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "o1 = derived()\n# message risoliotion order\n# بتطالعلي ترتيب الميثود\nprint(derived.mro())\no1.funcone()\no1.functwo()\n# polymarphism\nclass A:\n    def doing(self):\n        print('from class a')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "instance",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "instance = B()\ninstance.doing()\nprint(' ')\n# Encapsulation\n# protected _var\n# can acces from the same class and the derived classes\n# private __var\n# can acces just from the same class\nclass abd:\n    def __init__(self, name, price, why) -> None:",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = abd('ahmad', 200, 'fuck u')\nprint(a.name)\n# يمكن طباعة العناصر\n# protected\n# من خارج الكلاس\nprint(a._price)\n# print(a.__why)\na.say_why()\n# يمكن طباعة الععناصر ال private\n# من خلال التعليمة",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "a = sex()\na.setname('abdullah')\na.getname()\nprint(' ')\n# Property Decorator\nclass r:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    def sayhello(self):",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "o = r('ahmad', 20)\no.sayhello()\nprint(o.age_in_days)\nprint('    ')\n# Abstract Base Class\n# import\n# لل ابتسراكت كلاس والابستراكت ميثود\n# from abc import ABCMeta,abstractmethod\n# نجعل الكلاس نوعه ابستراكت من خلال\n# metaclass = ABCMeta",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "one",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "one = python()\nprint(one.has_opp())\none.fuck()\nprint('  ')\n# data base\n# انشاء ملف داتا بيز والاتصال فيه\ndb = sqlite3.connect('data.db')\n# انشاء تايبل داخل ملف الداتا بيز ووضع فيه ثلاث متغيرات\ndb.execute(\n    \"CREATE TABLE if not exists skills (name TEXT , progress INTEGER , user_id INTEGER )\")",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "db = sqlite3.connect('data.db')\n# انشاء تايبل داخل ملف الداتا بيز ووضع فيه ثلاث متغيرات\ndb.execute(\n    \"CREATE TABLE if not exists skills (name TEXT , progress INTEGER , user_id INTEGER )\")\n# setting up the curser\ncr = db.cursor()\ncr.execute(\"CREATE TABLE if not exists users(user_id INTEGER , name TEXT)\")\n# inserting data\ncr.execute(\"insert into users(user_id ,name) values(1,'ahmad')\")\ncr.execute(\"insert into users(user_id ,name) values(2,'abdullah')\")",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "cr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "cr = db.cursor()\ncr.execute(\"CREATE TABLE if not exists users(user_id INTEGER , name TEXT)\")\n# inserting data\ncr.execute(\"insert into users(user_id ,name) values(1,'ahmad')\")\ncr.execute(\"insert into users(user_id ,name) values(2,'abdullah')\")\ncr.execute(\"insert into users(user_id ,name) values(3,'sana')\")\n# Save (commit) changes\ndb.commit()\nmy_list = ['fateh', 'ibrahim', 'haytham']\nfor i, x in enumerate(my_list, 4):",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "my_list = ['fateh', 'ibrahim', 'haytham']\nfor i, x in enumerate(my_list, 4):\n    cr.execute(f\"insert into users(user_id,name) values ({i},'{x}')\")\ndb.commit()\n# update data\ncr.execute(\"update users set name = 'gamal' where user_id = 1 \")\ndb.commit()\n# delete data\ncr.execute(\"delete from users where user_id = 6\")\ndb.commit()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "my_logger",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "my_logger = logging.getLogger(\"abdullah\")\nmy_logger.warning(\"fuck u this iis from warning\")\nprint('')\nprint('')\nprint('')\n# ---------------------------------------------------------------------\n# Unittest\n# the modules that run unit testing (pytest ,unittest)\n# كلمة assert\n# هي مفتاح للتيست",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "skills_app",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "skills_app = Flask(__name__)\n@skills_app.route('/')\ndef main_page():\n    return render_template(\"homepage.html\",pagetitle='home',test = 'hello from home',custom_css ='home')\n@skills_app.route('/about')\ndef about () :\n    return render_template('about.html',pagetitle='about',test = 'hello from about',custom_css ='about')\n@skills_app.route('/vid')\ndef vid():\n    return render_template('vid.html',pagetitle = 'vid',test ='hello from vid page')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist = [1,2,3,4]\nmy_array = np.array([1,2,3,4])\nprint(type(mylist))\nprint(type(my_array))\nprint(mylist[0])\nprint(my_array[0])\nprint('')\n#dimintions array\nd = np.array([[[6,7],[8,9]],[[1,2],[4,5]]])\nprint(d[1][1][0])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "my_array",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "my_array = np.array([1,2,3,4])\nprint(type(mylist))\nprint(type(my_array))\nprint(mylist[0])\nprint(my_array[0])\nprint('')\n#dimintions array\nd = np.array([[[6,7],[8,9]],[[1,2],[4,5]]])\nprint(d[1][1][0])\n# ويمكن كتابتها بالطريقة",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "d = np.array([[[6,7],[8,9]],[[1,2],[4,5]]])\nprint(d[1][1][0])\n# ويمكن كتابتها بالطريقة\nprint(d[1,1,1])\n# ndim\\\\number of dimentions\nprint(d.ndim)\nprint('')\n#ndmin \\\\ number dimentions minimum\n# اقل عدد لل \n# dimentions",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3] , ndmin=3)\nprint(arr[0]) # [[1,2,3]]\nprint(arr[0][0][1]) # 2\nprint(arr[0,0,2]) # 3\nprint('')\nlist1 = ['1','2','3']\nlist2 = np.array(['1','2','3'])\n#id\n# مكان التخزين\n# address",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list1 = ['1','2','3']\nlist2 = np.array(['1','2','3'])\n#id\n# مكان التخزين\n# address\n# array\n# التخزين بنفس المكان\n# ال list\n# باماكن متباعدة\nprint(id(list1[0]))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list2 = np.array(['1','2','3'])\n#id\n# مكان التخزين\n# address\n# array\n# التخزين بنفس المكان\n# ال list\n# باماكن متباعدة\nprint(id(list1[0]))\nprint(id(list1[1]))",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list1 = [1,2,'a',True]\nlist2 = np.array([1,2,'a',True])\n# في ال array\n# يجب ان تكون البيانات متجانسة\nprint(list1)# بيحطلي كل عنصر حسب نوعو\nprint(list2)# رح يعتبرلي ياهن كلن string\nprint('')\nnum = 1000000\nmylist = range(0,num)\nmylist0 = range(0,num)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list2 = np.array([1,2,'a',True])\n# في ال array\n# يجب ان تكون البيانات متجانسة\nprint(list1)# بيحطلي كل عنصر حسب نوعو\nprint(list2)# رح يعتبرلي ياهن كلن string\nprint('')\nnum = 1000000\nmylist = range(0,num)\nmylist0 = range(0,num)\nmylist1 = np.arange(0,num)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "num = 1000000\nmylist = range(0,num)\nmylist0 = range(0,num)\nmylist1 = np.arange(0,num)\nmylist2 = np.arange(0,num)\nimport time\nlist_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist = range(0,num)\nmylist0 = range(0,num)\nmylist1 = np.arange(0,num)\nmylist2 = np.arange(0,num)\nimport time\nlist_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)\n#print(list_result)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist0",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist0 = range(0,num)\nmylist1 = np.arange(0,num)\nmylist2 = np.arange(0,num)\nimport time\nlist_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)\n#print(list_result)\nprint(f'the time is {time.time()-list_start}')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist1 = np.arange(0,num)\nmylist2 = np.arange(0,num)\nimport time\nlist_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)\n#print(list_result)\nprint(f'the time is {time.time()-list_start}')\n# ويمكن كتابتها بالشكل",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "mylist2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "mylist2 = np.arange(0,num)\nimport time\nlist_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)\n#print(list_result)\nprint(f'the time is {time.time()-list_start}')\n# ويمكن كتابتها بالشكل\n#list_result1 =[(i+n) for i,n in zip(mylist,mylist0)]",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list_start",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list_start = time.time()\nlist_result=[]\nfor i,n in zip(mylist,mylist0) :\n    list_result.append(i+n)\n#print(list_result)\nprint(f'the time is {time.time()-list_start}')\n# ويمكن كتابتها بالشكل\n#list_result1 =[(i+n) for i,n in zip(mylist,mylist0)]\n#print(list_result1)\narray_start = time.time()",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "array_start",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "array_start = time.time()\narray_result = mylist1 + mylist2\n#print(array_result)\n#وقت التنفيذ بال arry\n# اسرع باضعاف مضاعفة من السيت\nprint(f'the time is {time.time()-array_start}')\nprint('')\n#استخدام الذاكرة في ال اراي\narr = np.arange(100)\nprint(arr , end = \" \")",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "array_result",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "array_result = mylist1 + mylist2\n#print(array_result)\n#وقت التنفيذ بال arry\n# اسرع باضعاف مضاعفة من السيت\nprint(f'the time is {time.time()-array_start}')\nprint('')\n#استخدام الذاكرة في ال اراي\narr = np.arange(100)\nprint(arr , end = \" \")\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.arange(100)\nprint(arr , end = \" \")\nprint('')\nprint(arr.itemsize)# حجم العنصر بالبايت\nprint(arr.size) # حجم المصفوفة\nprint(f'all bytes is {arr.size * arr.itemsize}')\nprint('=====')\n#استخدام الذاكرة في الليست\nlist1 = range(100)\nimport sys",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "list1 = range(100)\nimport sys\nprint(sys.getsizeof(list1[0]))\nprint(len(list1))\nprint(f'all bytes is {len(list1) *sys.getsizeof(list1[0])}')\nprint('=====')\n#slicing and indexing in arrays\narr = np.array([1,2,3,4,5,6])\nprint(arr.ndim)\nprint(arr[1:4:1])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3,4,5,6])\nprint(arr.ndim)\nprint(arr[1:4:1])\nprint('')\narr1 = np.array([['A','B','C'],['D','E','F'],['G','H','I']])\nprint(arr1.ndim)\nprint(arr1[0][0:2])\nprint(arr1[0:3, 0:2])\nprint('')\n#أنواع البيانات والتحكم في المصفوفات",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr1 = np.array([['A','B','C'],['D','E','F'],['G','H','I']])\nprint(arr1.ndim)\nprint(arr1[0][0:2])\nprint(arr1[0:3, 0:2])\nprint('')\n#أنواع البيانات والتحكم في المصفوفات\narr = np.array([1,2,3])\narr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4])\nprint(arr.dtype)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3])\narr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4])\nprint(arr.dtype)\nprint(arr1.dtype)\nprint(arr2.dtype)\nprint('')\n#create  array with specific data type\narr = np.array([1,2,3],dtype=float)\narr1 = np.array(['a','b','c'])",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4])\nprint(arr.dtype)\nprint(arr1.dtype)\nprint(arr2.dtype)\nprint('')\n#create  array with specific data type\narr = np.array([1,2,3],dtype=float)\narr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4],dtype=int)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr2 = np.array([1.2,1.3,1.4])\nprint(arr.dtype)\nprint(arr1.dtype)\nprint(arr2.dtype)\nprint('')\n#create  array with specific data type\narr = np.array([1,2,3],dtype=float)\narr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4],dtype=int)\nprint(arr.dtype)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3],dtype=float)\narr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4],dtype=int)\nprint(arr.dtype)\nprint(arr2.dtype)\nprint(arr[0])\nprint('')\n#change data type of exesting array\narr = np.array([1,2,3])\narr = arr.astype(float)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr1 = np.array(['a','b','c'])\narr2 = np.array([1.2,1.3,1.4],dtype=int)\nprint(arr.dtype)\nprint(arr2.dtype)\nprint(arr[0])\nprint('')\n#change data type of exesting array\narr = np.array([1,2,3])\narr = arr.astype(float)\nprint(arr.dtype)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr2 = np.array([1.2,1.3,1.4],dtype=int)\nprint(arr.dtype)\nprint(arr2.dtype)\nprint(arr[0])\nprint('')\n#change data type of exesting array\narr = np.array([1,2,3])\narr = arr.astype(float)\nprint(arr.dtype)\nprint(arr)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3])\narr = arr.astype(float)\nprint(arr.dtype)\nprint(arr)\nprint('')\narr = np.array([1,2,3,0])\narr = arr.astype(bool)\nprint(arr.dtype)\nprint(arr)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = arr.astype(float)\nprint(arr.dtype)\nprint(arr)\nprint('')\narr = np.array([1,2,3,0])\narr = arr.astype(bool)\nprint(arr.dtype)\nprint(arr)\nprint('')\n#test capacity",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3,0])\narr = arr.astype(bool)\nprint(arr.dtype)\nprint(arr)\nprint('')\n#test capacity\n# الفرق بين int32\n# وال int 64\narr = np.array([100,200,300,400],dtype='f') #change to float 32\nprint(arr.dtype)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = arr.astype(bool)\nprint(arr.dtype)\nprint(arr)\nprint('')\n#test capacity\n# الفرق بين int32\n# وال int 64\narr = np.array([100,200,300,400],dtype='f') #change to float 32\nprint(arr.dtype)\nprint(arr)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([100,200,300,400],dtype='f') #change to float 32\nprint(arr.dtype)\nprint(arr)\nprint(arr[0].itemsize)\nprint('')\narr=arr.astype('float')#change to float 64\nprint(arr.dtype)\nprint(arr)\nprint(arr[0].itemsize)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3])\narr1 = np.array([4,5,6])\nprint(arr + arr1)\nprint(arr1 -arr )\nprint(arr1 * arr )\nprint(arr1 / arr )\nprint('')\narr = np.array([[1,2,3],[1,2,3]])\narr1 = np.array([[4,5,6],[1,2,3]])\nprint(arr + arr1)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr1 = np.array([4,5,6])\nprint(arr + arr1)\nprint(arr1 -arr )\nprint(arr1 * arr )\nprint(arr1 / arr )\nprint('')\narr = np.array([[1,2,3],[1,2,3]])\narr1 = np.array([[4,5,6],[1,2,3]])\nprint(arr + arr1)\nprint(arr1 -arr )",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[1,2,3],[1,2,3]])\narr1 = np.array([[4,5,6],[1,2,3]])\nprint(arr + arr1)\nprint(arr1 -arr )\nprint(arr1 * arr )\nprint(arr1 / arr )\nprint('')\narr = np.array([1,2,3])\nprint(arr.min())\nprint(arr.max())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr1 = np.array([[4,5,6],[1,2,3]])\nprint(arr + arr1)\nprint(arr1 -arr )\nprint(arr1 * arr )\nprint(arr1 / arr )\nprint('')\narr = np.array([1,2,3])\nprint(arr.min())\nprint(arr.max())\nprint(arr.sum())",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3])\nprint(arr.min())\nprint(arr.max())\nprint(arr.sum())\nprint('')\narr=[1,2,3]\nprint(min(arr))\nprint(max(arr))\nprint(sum(arr,arr))\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[1,2],[3,0]])\nprint(arr.min())\nprint(arr.max())\nprint(arr.sum())\nprint('')\narr = np.array([[1,2],[3,4]])\nprint(arr.ndim)\narr=arr.ravel()\nprint(arr)\nprint(arr.ndim)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[1,2],[3,4]])\nprint(arr.ndim)\narr=arr.ravel()\nprint(arr)\nprint(arr.ndim)\nprint('')\narr = np.array([[[1,2],[2,3]],[[4,5],[1,2]]])\nprint(arr.ndim)\narr=arr.ravel()\nprint(arr)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[[1,2],[2,3]],[[4,5],[1,2]]])\nprint(arr.ndim)\narr=arr.ravel()\nprint(arr)\nprint(arr.ndim)\nprint('')\n#shape and reshape\narr = np.array([1,2,3,4])\nprint(arr.ndim)\nprint(arr.shape)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3,4])\nprint(arr.ndim)\nprint(arr.shape)\nprint('')\narr = np.array([[1,2,3,4],[1,2,3,4]])\nprint(arr.ndim)\nprint(arr.shape)\nprint('')\narr = np.array([[[1,2,3,4],[1,2,3,4]]])\nprint(arr.ndim)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[1,2,3,4],[1,2,3,4]])\nprint(arr.ndim)\nprint(arr.shape)\nprint('')\narr = np.array([[[1,2,3,4],[1,2,3,4]]])\nprint(arr.ndim)\nprint(arr.shape)\nprint('')\narr = np.array([1,2,3,4,5,6,7,8])\nreshaped_arr = arr.reshape(2,4)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[[1,2,3,4],[1,2,3,4]]])\nprint(arr.ndim)\nprint(arr.shape)\nprint('')\narr = np.array([1,2,3,4,5,6,7,8])\nreshaped_arr = arr.reshape(2,4)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([1,2,3,4,5,6,7,8])\nreshaped_arr = arr.reshape(2,4)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)\nprint('')\narr = np.array([[[1,2,3,4],[1,2,3,4]]])\nreshaped_arr = arr.reshape(-1)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "reshaped_arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "reshaped_arr = arr.reshape(2,4)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)\nprint('')\narr = np.array([[[1,2,3,4],[1,2,3,4]]])\nreshaped_arr = arr.reshape(-1)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "arr = np.array([[[1,2,3,4],[1,2,3,4]]])\nreshaped_arr = arr.reshape(-1)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "reshaped_arr",
+        "kind": 5,
+        "importPath": "first",
+        "description": "first",
+        "peekOfCode": "reshaped_arr = arr.reshape(-1)\nprint(reshaped_arr)\nprint(reshaped_arr.ndim)\nprint(reshaped_arr.shape)\nprint('')",
+        "detail": "first",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "def hello() :\n    print('hello')",
+        "detail": "modules",
+        "documentation": {}
+    }
+]

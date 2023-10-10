@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% comment %}
+اضافة ملف ال 
+Css
+{% endcomment %}
+    <link rel="stylesheet" href="{{url_for('static',filename ='css/main.css')}}"/>
+    {% if custom_css %}
+    <link rel="stylesheet" href="{{url_for('static',filename ='css/'+custom_css+'.css')}}"/>
+    {% endif %}
+    <title>{{pagetitle}}</title>
+</head>
+<body>
+    {% block body %}{% endblock %}
+        {% comment %}
+اضافة ملف ال 
+js
+يجب تنزيل ال 
+jquery
+وربطه ايضا
+{% endcomment %}
+    <script src="{{url_for('static',filename ='js/jquery-3.7.1.js')}}"></script>
+    <script src="{{url_for('static',filename ='js/main.js')}}"></script>
+</body>
+</html>
